@@ -1,0 +1,19 @@
+
+.text {
+		font-size: 14px;
+		margin-top: 5px;
+}
+.image {
+		width: 48px;
+		height: 48px;
+		transform-style: preserve-3d;
+}
+.grid-item-box {
+		flex: 1;
+		display: inline-flex;
+		position: relative;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		padding: 15px 0;
+}

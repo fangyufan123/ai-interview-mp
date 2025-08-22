@@ -1,0 +1,149 @@
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.hover-view.data-v-7c2ebfa5 {
+  background-color: gainsboro;
+  color: whitesmoke;
+}
+.common-container.data-v-7c2ebfa5 {
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.user-card.data-v-7c2ebfa5 {
+  display: flex;
+  height: 374rpx;
+  box-sizing: border-box;
+  padding-top: 40rpx;
+  padding-left: 48rpx;
+  background: linear-gradient(180deg, #287EFF 44.55%, #94BDFA 100%);
+}
+.user-card .icon.data-v-7c2ebfa5 {
+  width: 146rpx;
+  height: 146rpx;
+  margin-right: 38rpx;
+}
+.user-card .user-avatar.data-v-7c2ebfa5 {
+  width: 146rpx;
+  height: 146rpx;
+  padding: 0;
+  margin-right: 38rpx;
+  margin-left: 0;
+  border-radius: 74rpx;
+  background-color: transparent;
+}
+.user-card .user-avatar.data-v-7c2ebfa5::after {
+  border: none;
+}
+.user-card .user-avatar .icon.data-v-7c2ebfa5 {
+  margin-right: 0;
+}
+.user-card .right .name.data-v-7c2ebfa5 {
+  font-size: 40rpx;
+  height: 1.5em;
+  line-height: 1.5em;
+  font-weight: 500;
+  margin-bottom: 20rpx;
+  color: #ffffff;
+}
+.user-card .right .phone.data-v-7c2ebfa5 {
+  font-size: 32rpx;
+  color: #ffffff;
+}
+.user-card .goto-login-btn.data-v-7c2ebfa5 {
+  display: flex;
+  align-items: center;
+  height: 150rpx;
+  color: #f0f0f0;
+}
+.user-func.data-v-7c2ebfa5 {
+  margin-top: -50rpx;
+  border-radius: 32rpx;
+  margin-left: 25rpx;
+  margin-right: 25rpx;
+  background-color: #fff;
+}
+.user-func .user-func_item.data-v-7c2ebfa5 {
+  height: 144rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 20rpx;
+  box-sizing: border-box;
+  border-top: 1px solid #f1f1f1;
+}
+.user-func .user-func_item .icon.data-v-7c2ebfa5 {
+  width: 48rpx;
+  height: 48rpx;
+  margin-right: 16rpx;
+  flex-shrink: 0;
+}
+.user-func .user-func_item .txt.data-v-7c2ebfa5 {
+  color: #111;
+  text-align: left;
+  font-size: 34rpx;
+  flex-grow: 1;
+}
+.user-func .user-func_item .right-icon.data-v-7c2ebfa5 {
+  width: 48rpx;
+  height: 48rpx;
+  flex-shrink: 0;
+}
+.user-func .user-func_item .user-arrow.data-v-7c2ebfa5 {
+  font-size: 32rpx;
+  color: #999999;
+}
+.enter-wrap.data-v-7c2ebfa5 {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  overflow-x: auto;
+  padding: 60rpx 48rpx 34rpx 48rpx;
+}
+.enter-wrap .enter-item.data-v-7c2ebfa5 {
+  width: 186rpx;
+  flex: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 26rpx;
+  margin-bottom: 26rpx;
+}
+.enter-wrap .enter-item.data-v-7c2ebfa5:nth-of-type(3n) {
+  margin-right: 0;
+}
+.enter-wrap .enter-icon.data-v-7c2ebfa5 {
+  width: 86rpx;
+  height: 86rpx;
+  margin-bottom: 12rpx;
+}
+.enter-wrap .enter-name.data-v-7c2ebfa5 {
+  text-align: center;
+  font-size: 28rpx;
+  font-weight: 500;
+  line-height: 48rpx;
+  color: #111;
+}
