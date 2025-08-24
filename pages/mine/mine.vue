@@ -19,18 +19,18 @@
 					{{userDetail.phone}}
 				</view>
 			</view> -->
-			<view class="right goto-login-btn">微信用户1 </view>
+			<view class="right goto-login-btn">微信用户yffang </view>
 		</view>
 
 		<!-- 功能 -->
 		<view class="user-func">
 			<view class="user-func_item" @click="clickItem('records')" hover-class="hover-view">
-				<image class="icon" src="../../static/myPage/user-data.png" mode="aspectFit" />
+				<image class="icon" src="../../static/myPage/interview.png" mode="aspectFit" />
 				<text class="txt">面试记录</text>
 				<image class="right-icon" src="../../static/myPage/arrow.png" mode="aspectFit" />
 			</view>
 			<view class="user-func_item" @click="clickItem('about')" hover-class="hover-view">
-				<image class="icon" src="../../static/myPage/user-logout.png" mode="aspectFit" />
+				<image class="icon" src="../../static/myPage/about.png" mode="aspectFit" />
 				<text class="txt">关于</text>
 				<image class="right-icon" src="../../static/myPage/arrow.png" mode="aspectFit" />
 			</view>
@@ -39,40 +39,19 @@
 		<view>
 			<!-- 提示窗示例 -->
 			
-			<uni-popup>> ref="alertDialog" type="dialog">
-				<uni-popup-dialog> type="success" cancelText="关闭" confirmText="了解" title="关于">
-					<!-- <view>
-						<view>版本</view>
-						<view>开发者</view>
-						<view>联系方式</view>
-					</view> -->
+			<uni-popup ref="alertDialog" type="dialog">
+				<uni-popup-dialog type="success" cancelText="关闭" confirmText="了解" title="关于">
+					<view>
+						<view>版本 1.10.0</view>
+						<view style="margin-top: 10rpx;">开发者 yffang</view>
+						<view style="margin-top: 10rpx;">联系方式 0524-1788899</view>
+					</view>
 				</uni-popup-dialog>
 			</uni-popup>
 		</view>
 
 	</view>
 </template>
-
-<script setup>
-	import {
-		ref,
-		getCurrentInstance
-	} from 'vue';
-	const {
-		proxy
-	} = getCurrentInstance()
-	let alertDialog = ref(null)
-
-	function clickItem(item) {
-		if (item == 'about') {
-			console.log('111111')
-			proxy.$refs.alertDialog.open()
-		} else if (item == 'records') {
-
-		}
-	}
-</script>
-
 <style lang="scss" scoped>
 	.hover-view {
 		background-color: gainsboro;
@@ -225,3 +204,24 @@
 		}
 	}
 </style>
+
+<script setup>
+	import {
+		ref,
+		getCurrentInstance
+	} from 'vue';
+	const {
+		proxy
+	} = getCurrentInstance()
+	let alertDialog = ref(null)
+
+	function clickItem(item) {
+		if (item == 'about') {
+			//console.log('111111'+proxy.$refs.alertDialog)
+			proxy.$refs.alertDialog.open()
+		} else if (item == 'records') {
+
+		}
+	}
+</script>
+
