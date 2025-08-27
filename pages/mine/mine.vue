@@ -42,9 +42,9 @@
 			<uni-popup ref="alertDialog" type="dialog">
 				<uni-popup-dialog type="success" cancelText="关闭" confirmText="了解" title="关于">
 					<view>
-						<view>版本 1.10.0</view>
-						<view style="margin-top: 10rpx;">开发者 yffang</view>
-						<view style="margin-top: 10rpx;">联系方式 0524-1788899</view>
+						<view>版本 1.10.0 </view>
+						<view style="margin-top: 10rpx;">开发者 yffang </view>
+						<view style="margin-top: 10rpx;">联系方式 0524-1788899 </view>
 					</view>
 				</uni-popup-dialog>
 			</uni-popup>
@@ -210,6 +210,9 @@
 		ref,
 		getCurrentInstance
 	} from 'vue';
+	/**
+	 * const 声明块级作用域的常量，变量的值在声明后不可重新赋值。
+	 */
 	const {
 		proxy
 	} = getCurrentInstance()

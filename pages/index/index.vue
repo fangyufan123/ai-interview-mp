@@ -3,7 +3,8 @@
 		<swiper circular style="height: 240px;" :indicator-dots="indicatorDots" :autoplay="autoplay"
 			:interval="interval" :duration="duration">
 			<swiper-item v-for="(banner, index) in banners" :key="index">
-				<image style="width: 100%;background-color: #eeeeee;" :src="banner.image" @click="bannerClick(banner)"></image>
+				<image style="width: 100%;background-color: #eeeeee;" :src="banner.image" @click="bannerClick(banner)">
+				</image>
 			</swiper-item>
 
 		</swiper>
@@ -17,6 +18,7 @@
 		</uni-grid>
 	</view>
 </template>
+
 <style>
 	.text {
 		font-size: 14px;
@@ -59,33 +61,35 @@
 	let duration = ref(1000)
 	let banners = ref([])
 	let categories = ref([])
-	
-	function gridItemClick(event){
+
+	function gridItemClick(event) {
 		let cate = categories.value[event.detail.index]
-		if(cate.enable){
+		console.log(categories.value[event.detail.index])
+		if (cate.enable) {
+			console.log(cate.name)
 			uni.navigateTo({
-				url: '/pages/interview/interview?cate='+cate.name
+				url: '/pages/interview/interview?cate=' + cate.name
 			});
-		}else{
+		} else {
 			uni.showToast({
-				title:'快马加鞭制作中',
-				duration:2000,
-				icon:"none"
+				title: '快马加鞭制作中',
+				duration: 2000,
+				icon: "none"
 			})
 		}
 	}
-	
-	function bannerClick(data){
+
+	function bannerClick(data) {
 		uni.setStorage({
-			key:'wvUrl',
-			data:data.url,
+			key: 'wvUrl',
+			data: data.url,
 			success() {
 				uni.navigateTo({
 					url: '/pages/webview/webview'
 				});
 			}
 		})
-		
+
 	}
 
 	//onLoad 回调函数在页面加载时执行
