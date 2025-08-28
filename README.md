@@ -13,13 +13,15 @@
 - **面试记录**：保存每次面试的详细记录，方便用户回顾和分析。
 - **用户友好的界面**：简洁直观的 UI 设计，优化用户体验。
 
+---
+
 - ## 技术栈
 
 - **Vue 3**
-- **UniApp开发框架**
-- **开发工具：HbuilderX**
-- **Node JS:20版本+**
-- **调试采用微信开发者工具**
+- **开发框架: UniApp **
+- **开发工具: HbuilderX**
+- **NodeJS: 20版本+**
+- **调试工具: 微信开发者工具**
 
 ---
 
@@ -36,14 +38,6 @@
 
 ### AI 面试记录页面
 <img width="247" height="553" src="https://github.com/user-attachments/assets/baad34bb-a653-4fb2-af0f-0ed4525ae9d8" alt="面试记录 1" /> <img width="264" height="542" src="https://github.com/user-attachments/assets/5a1155cf-6042-4b50-b8ed-4a02a394e82b" alt="面试记录 2" />
-
----
-
-## 技术栈
-
-- **前端**：小程序原生开发（WXML, WXSS, JavaScript）
-- **后端**：AI 驱动的面试问题生成与反馈算法
-- **框架**：微信小程序框架
 
 ---
 
