@@ -28,10 +28,11 @@
 ## 界面预览
 
 ### 主页
+
 <img width="262" height="561" src="https://github.com/user-attachments/assets/630318fd-7ada-4463-a033-2e08ef10e793" alt="主页" />
 
 ### 我的页面
-<img width="263" height="554" src="https://github.com/user-attachments/assets/163cf586-76b0-4cee-8c2a-9ac3cf7d2154" alt="我的页面" />
+<img width="263" height="554" src="https://github.com/user-attachments/assets/9e839019-6498-481f-828a-8c7a28eb0937" alt="我的页面" />
 
 ### AI 面试页面
 <img width="272" height="564" src="https://github.com/user-attachments/assets/717e28ee-0082-422e-9a58-6857ad17ff91" alt="AI 面试 1" /> <img width="275" height="551" src="https://github.com/user-attachments/assets/8c71b99b-cea1-44b2-bc66-db1ddae894cd" alt="AI 面试 2" />
