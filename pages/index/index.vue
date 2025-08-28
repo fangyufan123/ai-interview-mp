@@ -124,6 +124,11 @@
 				uni.showLoading({
 					title: '数据加载中...'
 				});
+				/**
+				 * Promise 并不是 Vue 3 特有的概念，而是 JavaScript 语言本身提供的一种异步编程工具
+				 * 定义：Promise 是一种表示异步操作结果的对象，可以是成功（resolve）或失败（reject）。它通过 .then() 处理成功结果，.catch() 处理错误。
+				   用法：常用于处理 AJAX 请求、定时器或文件操作等异步任务。
+				 */
 				getAllCategories().then(res => {
 					categories.value = res
 					uni.setStorage({

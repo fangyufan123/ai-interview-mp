@@ -14,8 +14,8 @@
 		</view>
 
 		/**
-		* v-if：动态创建/销毁 DOM，初始渲染开销较高。
-		v-show：始终存在 DOM，切换开销低。
+		* v-if：动态创建/销毁 DOM，初始渲染开销较高， 适用内容复杂或包含大量计算/绑定时，避免不必要的渲染。
+		  v-show：始终存在 DOM，切换开销低，适用 需要频繁切换显隐（如选项卡、开关）。
 		*/
 		<scroll-view :scroll-top="0" :scroll-y="true" class="content">
 			<uni-card v-if="showContent" title="AI面试" :extra="`${category.text}面试题`">
