@@ -1,5 +1,5 @@
 平台简介
-ai-interview-mp 是 ai面试官 小程序端。
+ai-interview-mp 是 ai面试官 小程序端。<br>
 主页 ue图
 <img width="394" height="842" alt="image" src="https://github.com/user-attachments/assets/630318fd-7ada-4463-a033-2e08ef10e793" />
 我的 ue图
