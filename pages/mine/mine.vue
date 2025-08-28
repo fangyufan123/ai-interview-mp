@@ -223,7 +223,9 @@
 			//console.log('111111'+proxy.$refs.alertDialog)
 			proxy.$refs.alertDialog.open()
 		} else if (item == 'records') {
-
+			uni.navigateTo({
+				url: '/pages/records/records'
+			})
 		}
 	}
 </script>

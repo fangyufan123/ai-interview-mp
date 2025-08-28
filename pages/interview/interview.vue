@@ -126,6 +126,7 @@
 			})
 			return;
 		}
+		//每次点击面试按钮 生成一个新的sessionID,后端 每到题目的回答和问题都公用一个sessionID
 		let mpRequest = {
 			sessionId: generateSessionID(),
 			content: category.value,

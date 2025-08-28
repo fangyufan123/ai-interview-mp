@@ -2,7 +2,7 @@ const BASE_URL = 'http://127.0.0.1:8080'
 export const request = (options) => {
 	return new Promise((resolve, reject) => {
 		let expire_time = uni.getStorageSync('login_expire_time');
-		if (expire_time && expire_time < new Date().getTime()) {
+		if (expire_time && expire_time > new Date().getTime()) {
 			handleRequest(options, resolve, reject)
 		} else {
 			uni.login({
@@ -106,5 +106,12 @@ export const chat = (data) => {
 		url: '/mp/chat',
 		method: 'POST',
 		data: data
+	});
+};
+
+export const getAllRecords = (pageNum) => {
+	return request({
+		url: '/mp/records?subject=all&pageNum=' + pageNum,
+		method: 'GET'
 	});
 };

@@ -26,6 +26,20 @@
 			{
 				"navigationBarTitleText" : "AI面试"
 			}
+		},
+		{
+			"path" : "pages/records/records",
+			"style" : 
+			{
+				"navigationBarTitleText" : "AI面试记录"
+			}
+		},
+		{
+			"path" : "pages/record_details/record_details",
+			"style" : 
+			{
+				"navigationBarTitleText" : "面试题详情"
+			}
 		}
 	],
 	"globalStyle": {
