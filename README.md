@@ -18,7 +18,7 @@
 - ## 技术栈
 
 - **Vue 3**
-- **开发框架: UniApp **
+- 开发框架: UniApp
 - **开发工具: HbuilderX**
 - **NodeJS: 20版本+**
 - **调试工具: 微信开发者工具**
@@ -47,9 +47,9 @@
    ```bash
    git clone https://github.com/your-username/ai-interview-mp.git
    ```
-2. 打开微信开发者工具，导入项目。
-3. 配置后端 API 接口（详见文档）。
-4. 运行小程序进行测试。
+2. HbuilderX 导入项目（安装node.js）
+4. 启动 后端 API 接口（详见: https://github.com/yffang-coder/RuoYi-Vue
+5. 微信开发者工具，运行小程序进行测试。
 
 ---
 
