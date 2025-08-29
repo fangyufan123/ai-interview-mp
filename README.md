@@ -35,12 +35,14 @@
 <img width="263" height="554" src="https://github.com/user-attachments/assets/9e839019-6498-481f-828a-8c7a28eb0937" alt="我的页面" />
 
 ### AI 面试页面
-<img width="272" height="564" src="https://github.com/user-attachments/assets/717e28ee-0082-422e-9a58-6857ad17ff91" alt="AI 面试 1" /> <img width="275" height="551" src="https://github.com/user-attachments/assets/8c71b99b-cea1-44b2-bc66-db1ddae894cd" alt="AI 面试 2" />
+<img width="272" height="564" src="https://github.com/user-attachments/assets/aec9efec-ba64-476f-bfdc-b8433d20ac66" alt="AI 面试 1" /> <img width="275" height="551" src="https://github.com/user-attachments/assets/f6832e09-988b-433b-ab15-188fbfa8da32" alt="AI 面试 2" />
 
 ### AI 面试记录页面
 <img width="247" height="553" src="https://github.com/user-attachments/assets/baad34bb-a653-4fb2-af0f-0ed4525ae9d8" alt="面试记录 1" /> <img width="264" height="542" src="https://github.com/user-attachments/assets/5a1155cf-6042-4b50-b8ed-4a02a394e82b" alt="面试记录 2" />
 
 ---
+
+
 
 ## 安装与使用
 
